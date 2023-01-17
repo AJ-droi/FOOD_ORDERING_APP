@@ -1,0 +1,14 @@
+.post{
+    padding:5% 0% 5% 10%;
+    cursor: pointer;
+}
+
+.flexDiv{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.flexDiv img{
+    height: 30vh;
+}

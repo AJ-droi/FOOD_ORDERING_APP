@@ -1,0 +1,18 @@
+.hero h3{
+    padding-left: 10%;
+}
+
+.hero-card{
+    height: 50vh;
+    width: 80%;
+    margin: 0% auto;
+    background: linear-gradient(to bottom ,  rgba(176, 29, 29, 0.03),  #F2A8A8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.hero-card img{
+    height: 80%;
+}

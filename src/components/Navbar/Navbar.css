@@ -1,0 +1,63 @@
+nav, ul,.active, .logo-container{
+    display: flex;
+    align-items: center;
+    padding: 0% 5%;
+}
+
+
+nav{
+    justify-content: space-between;
+    height: 25vh;
+}
+
+.logo-container{
+    width:32%;
+    justify-content: space-between;
+}
+
+.logo-container h3{
+    font-size: 1.3rem;
+    color:  #E41414;
+    font-weight: 700;
+
+}
+
+ul{
+    width:50%;
+    background-color: #FFA3A3;
+    height: 45%;
+    border-radius: 40px;
+    justify-content: space-around;
+}
+
+li{
+    list-style-type: none;
+}
+
+
+.active{
+    background-color:   #ffffff;
+    width: 30%;
+    height: 50%;
+    justify-content: center;
+    border-radius: 20px;
+    box-shadow: 1px 2px 8px  #000;
+}
+
+.link{
+    text-decoration: none;
+    color: #000000;
+    font-size: 1.0rem;
+}
+
+.link:hover{
+    color: #000000;
+}
+
+.cart-basket{
+    font-size: 30px;
+}
+
+.cart-count{
+    font-size: 20px;
+}

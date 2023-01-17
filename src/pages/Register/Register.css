@@ -1,0 +1,57 @@
+.register-container{
+    display:flex;
+    width:100%;
+    min-height: 100%;
+}
+
+.bg-background{
+    width:30%
+}
+
+.form-style{
+    width: 70%;
+    height:100vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+form{
+    height: 80%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+form div{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 15%;
+}
+
+input{
+    width: 70%;
+    height: 10vh;
+    border-radius: 50px;
+    border: none;
+    background-color: #FFFFFF;
+}
+
+.btn-container{
+    padding:0% 2%;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 3%;
+}
+
+button{
+    width: 45%;
+    height: 7vh;
+    border-radius: 50px;
+    border: none;
+    background-color: #1F77A8
+}

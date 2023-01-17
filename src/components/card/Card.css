@@ -1,0 +1,9 @@
+.card-style{
+    background-color: #E7D2D2;
+    border-radius: 15px;
+    width: 736px;
+    height: 600px; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+}

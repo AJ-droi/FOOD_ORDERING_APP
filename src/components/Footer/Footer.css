@@ -1,0 +1,82 @@
+footer, 
+.social,
+.location,
+.links,
+.company,
+.social-link{
+    display: flex;
+    color:  #212529;
+
+}
+
+footer{
+    background-color: #EFF0F1;
+    height: 50vh;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 15%;
+}
+
+footer ul{
+    flex-direction: column;
+    background-color: transparent;
+    height: 20vh;
+}
+
+.social, 
+.location,
+.links{
+    width: 25%;
+}
+
+.social, 
+.location,
+.links,
+.company{
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.social p,
+.location h3,
+.links h3,
+.company h3{
+    text-align: center;
+}
+
+.location h3,
+.links h3,
+.company h3{
+    font-family: 'Playfair Display', serif;
+    color:  #0D0D25;
+    font-size: 1.3rem;
+    font-weight: 700;
+
+}
+.social p{
+    width:80%;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.social-link{
+    text-decoration: none;
+    color: #fda529;
+    padding: 5%;
+    background-color: #ffffff;
+    font-size: 1.3rem;
+    border-radius: 50%;
+    justify-content: center;
+    box-shadow: 2px 2px 5px rgb(134, 133, 133);
+}
+ 
+
+.company ul{
+    width: 15vw;
+    height: 20vh;
+}
