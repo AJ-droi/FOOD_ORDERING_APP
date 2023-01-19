@@ -1,5 +1,5 @@
 [build]
   command = "yarn build"
   functions = "functions"
-  publish = "food-app/build"
+  publish = "build"
   environment = { NODE_ENV = "production" }
