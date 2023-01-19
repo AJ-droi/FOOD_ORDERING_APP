@@ -1,0 +1,33 @@
+.review{
+    padding: 2% 0% 2% 10%
+}
+
+.reviews{
+    display: flex;
+    height: auto;
+}
+
+.review h3{
+    padding-left:5%
+}
+
+.reviews img{
+    height:50vh
+}
+
+@media screen and (max-width: 1280px) {
+    .review{
+        padding: 0%;
+        margin-top: 3%;
+    }
+
+    .review h3{
+        padding-left: 10%;
+    }
+
+    .reviews{
+        overflow-x: scroll;
+    }
+
+
+}

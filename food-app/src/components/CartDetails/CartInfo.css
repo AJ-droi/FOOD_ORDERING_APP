@@ -175,4 +175,45 @@
     margin-top: 80px;
 }
 
+@media screen and (max-width: 780px) {
+    .rest-header{
+        align-items: center;
+    }
+    .rest-form {
+        width:50%
+    }
+    
+}
 
+
+@media screen and (max-width: 480px) {
+    .restaurant-cards{
+        height:auto
+    }
+    .restaurant-card img{
+        height: 15vh;
+    }
+
+    .rest-header{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .rest-form {
+        width:100%
+    }
+    
+    .restaurant-card p{
+        width: 90%;
+    }
+
+    .cart-items-list{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cart-items-total-price-name{
+        flex-direction: column;
+        align-items: center;
+    }
+}

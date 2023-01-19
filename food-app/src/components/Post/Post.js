@@ -29,7 +29,7 @@ const Post = () => {
          <>
            
            <div key={elem.id}>
-           <Link to={`/restaurant/${elem.id}`}>
+           <Link to={`/restaurant/${elem.id}`} style={{textDecoration:"none", color:"#000"}}>
           <img src={elem.coverImage} alt="" />
           <h3>{elem.restaurantName}</h3>
           </Link>

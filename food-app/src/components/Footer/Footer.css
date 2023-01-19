@@ -80,3 +80,32 @@ footer ul{
     width: 15vw;
     height: 20vh;
 }
+
+
+@media screen and (max-width:480px) {
+    footer{
+        flex-direction: column;
+        height: auto;
+        padding: 0%;;
+    }
+
+    .social, 
+    .location,
+    .links{
+        width: 100%;
+        margin-top: 5%;
+    }
+
+    .social-icons{
+        width: 50%
+    }
+
+    .social-link{
+        padding: 2%;
+    }
+
+    .company ul{
+        width: 100%;
+        text-align: center;
+    }
+}

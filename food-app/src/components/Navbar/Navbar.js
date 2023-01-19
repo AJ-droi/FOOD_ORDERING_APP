@@ -8,7 +8,6 @@ import {BsFillCartCheckFill} from "react-icons/bs";
 
 const Navbar = () => {
   const {Logout, cartItem} = useAuth()
-  console.log(cartItem)
   const getSignature = localStorage.getItem("signature");
 
   const handleLogout = ()=>{

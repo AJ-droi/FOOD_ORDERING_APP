@@ -61,3 +61,24 @@ li{
 .cart-count{
     font-size: 20px;
 }
+
+
+@media screen and (max-width:780px) {
+    nav{
+        flex-direction: column;
+        padding-top: 5%;
+    }
+
+    ul{
+        width:100%;
+    }
+
+    .logo-container{
+        width:80%;
+        justify-content: space-between;
+    }
+
+    .logo-container h3{
+        font-size: 0.8rem;
+    }
+}

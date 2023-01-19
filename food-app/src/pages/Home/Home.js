@@ -7,7 +7,7 @@ import Review from '../../components/Review/Review'
 
 const Home = () => {
   return (
-    <div>
+    <div style={{overflow:"hidden"}}>
         <Navbar />
         <Hero />
         <Post />

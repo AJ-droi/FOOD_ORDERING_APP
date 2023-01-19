@@ -62,3 +62,17 @@
 .btn-style:hover{
     background-color: red;
 }
+
+@media screen and (max-width: 480px) {
+    .restaurant-card{
+        flex-direction: column;
+        height: auto;
+        padding: 5% 0%;
+        width: 90%;
+    }
+
+    .restaurant-card button{
+        width: 100%;
+    }
+   
+}

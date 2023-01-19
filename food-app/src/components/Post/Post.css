@@ -1,0 +1,27 @@
+.post{
+    padding:5% 0% 5% 10%;
+    cursor: pointer;
+}
+
+.flexDiv{
+    display: flex;
+    height: auto;
+    
+}
+
+.flexDiv h3{
+    text-align: center;
+}
+
+.flexDiv img{
+    height: 30vh;
+}
+
+
+@media screen and (max-width: 1280px) {
+    .flexDiv{
+        overflow-x: scroll;
+    }
+}
+    
+
