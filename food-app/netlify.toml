@@ -1,0 +1,5 @@
+[build]
+  command = "npm ci && npm run build"
+  functions = "functions"
+  publish = "dist"
+  environment = { NODE_ENV = "production" }
