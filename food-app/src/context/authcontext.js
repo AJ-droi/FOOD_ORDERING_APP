@@ -16,8 +16,9 @@ const DataProvider = ({ children }) => {
         email: formData.email,
         password: formData.password,
         confirm_password: formData.confirm_password,
-        phone: formData.phone,
+        phone: formData.phone
       };
+      console.log(registerData)
       await apiPost("/users/signup", registerData).then((res) => {
         toast.success(res.data.message);
         localStorage.setItem("signature", res.data.signature);
