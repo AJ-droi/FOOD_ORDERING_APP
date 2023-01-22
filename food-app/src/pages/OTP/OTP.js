@@ -47,7 +47,7 @@ const OTP = () => {
                     boxSizing: "border-box",
                     width: "2.8rem",
                     padding: "14px",
-                    margin: "10px 0",
+                    margin: "10px -5px",
                     border: "1px solid #d9d9d9",
                     outline: "none",
                   }}
